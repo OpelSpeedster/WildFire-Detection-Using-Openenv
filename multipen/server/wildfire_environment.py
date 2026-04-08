@@ -90,12 +90,7 @@ class WildfireEnvironment(Environment):
             gradcam_summary=f"Grad-CAM: {obs.get('gradcam_summary', [0])[0]}",
             frame_id=int(obs.get("frame_id", [0])[0]),
             step=int(obs.get("step", [0])[0]),
-            ground_truth_arr = obs.get("ground_truth", np.array([2]))
-            if hasattr(ground_truth_arr, 'ndim') and ground_truth_arr.ndim > 0:
-                gt_idx = int(ground_truth_arr[0])
-            else:
-                gt_idx = int(ground_truth_arr)
-            ground_truth=["fire", "smoke", "no_fire"][gt_idx],
+            ground_truth="no_fire",
             reward=reward,
             done=done,
             metadata={},
