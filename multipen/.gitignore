@@ -1,0 +1,41 @@
+# Secrets & Env
+.env
+.python-version
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+env/
+venv/
+.uv/
+
+# Build & Dist
+build/
+dist/
+*.egg-info/
+
+# Project Outputs & Logs
+recognized_text.txt
+*.log
+q_model.pkl
+
+# Large Media / Test Data
+*.mp4
+*.avi
+*.mov
+!environments/wildfire_detection/sample_frames/*
+
+# IDEs
+.vscode/
+.idea/
+.cursor/
+.agents/
+
+# System
+.DS_Store
+Thumbs.db
