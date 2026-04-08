@@ -20,7 +20,11 @@ from PIL import Image
 # Environment variables
 API_BASE_URL = os.getenv("API_BASE_URL", "https://router.huggingface.co/v1")
 MODEL_NAME = os.getenv("MODEL_NAME", "Qwen/Qwen2.5-3B-Instruct")
-API_KEY = os.getenv("API_KEY")
+HF_TOKEN = os.getenv("HF_TOKEN")
+# Optional - if you use from_docker_image():
+LOCAL_IMAGE_NAME = os.getenv("LOCAL_IMAGE_NAME")
+
+API_KEY = os.getenv("API_KEY", HF_TOKEN)
 
 # Check if we can use LLM mode
 USE_LLM = API_KEY is not None
