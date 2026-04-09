@@ -64,7 +64,7 @@ class WildfireEnvironment(Environment):
         action_idx = ["Alert", "Scan", "Ignore", "Deploy"].index(action.action)
         obs, reward, done, info = self._env.step(action_idx)
 
-        return self._make_observation(obs, reward, done, info)
+        return self._make_observation(obs, reward, done)
 
     def _make_observation(
         self, obs: dict, reward: float, done: bool
