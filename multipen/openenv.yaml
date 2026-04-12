@@ -1,0 +1,6 @@
+spec_version: 1
+name: wildfire_detection
+type: space
+runtime: fastapi
+app: run_server:main
+port: 8000
