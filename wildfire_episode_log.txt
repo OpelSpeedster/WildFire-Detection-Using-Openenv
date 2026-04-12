@@ -1,0 +1,19 @@
+
+=== Episode ===
+Total frames: 14
+Cumulative reward: 4.00
+Success: False
+  Step 1: {'step': 1, 'frame_id': 1, 'action': 'Alert', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'fire', 'reward': 0.5}
+  Step 2: {'step': 2, 'frame_id': 2, 'action': 'Alert', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'fire', 'reward': 0.5}
+  Step 3: {'step': 3, 'frame_id': 3, 'action': 'Alert', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'fire', 'reward': 0.5}
+  Step 4: {'step': 4, 'frame_id': 4, 'action': 'Alert', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'fire', 'reward': 0.5}
+  Step 5: {'step': 5, 'frame_id': 5, 'action': 'Alert', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'fire', 'reward': 0.5}
+  Step 6: {'step': 6, 'frame_id': 6, 'action': 'Alert', 'prediction': 'no_fire', 'confidence': 0.4, 'ground_truth': 'fire', 'reward': 0.5}
+  Step 7: {'step': 7, 'frame_id': 7, 'action': 'Ignore', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'fire', 'reward': -0.5}
+  Step 8: {'step': 8, 'frame_id': 8, 'action': 'Alert', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'fire', 'reward': 0.5}
+  Step 9: {'step': 9, 'frame_id': 9, 'action': 'Alert', 'prediction': 'no_fire', 'confidence': 0.4, 'ground_truth': 'fire', 'reward': 0.5}
+  Step 10: {'step': 10, 'frame_id': 10, 'action': 'Ignore', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'fire', 'reward': -0.5}
+  Step 11: {'step': 11, 'frame_id': 11, 'action': 'Alert', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'smoke', 'reward': 0.5}
+  Step 12: {'step': 12, 'frame_id': 12, 'action': 'Alert', 'prediction': 'smoke', 'confidence': 0.6, 'ground_truth': 'smoke', 'reward': 0.5}
+  Step 13: {'step': 13, 'frame_id': 13, 'action': 'Alert', 'prediction': 'no_fire', 'confidence': 0.4, 'ground_truth': 'smoke', 'reward': 0.5}
+  Step 14: {'step': 14, 'frame_id': 14, 'action': 'Ignore', 'prediction': 'no_fire', 'confidence': 0.4, 'ground_truth': 'smoke', 'reward': -0.5}

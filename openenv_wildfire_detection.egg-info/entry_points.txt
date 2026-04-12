@@ -1,0 +1,2 @@
+[console_scripts]
+server = multipen.server.app:main

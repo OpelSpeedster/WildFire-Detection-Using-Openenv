@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: openenv-wildfire-detection
+Version: 0.1.0
+Summary: Wildfire Detection RL Environment for OpenEnv
+Requires-Python: >=3.10
+Requires-Dist: openenv-core[core]>=0.2.2
+Requires-Dist: numpy>=1.19.0
+Requires-Dist: pillow>=10.0.0
+Requires-Dist: opencv-python>=4.8.0
+Requires-Dist: tensorflow>=2.15.0
+Requires-Dist: gymnasium>=0.29.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
